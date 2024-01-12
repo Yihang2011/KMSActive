@@ -2,15 +2,15 @@
     Author:YihangXiao
 */
 
-
 #include <Windows.h>
 #include <Stdio.h>
 #include <iostream>
 #include <cstring>
 #include <cstdlib>
 #include <ctime>
+#include <stdlib.h>
 using namespace std;
-#define clear() cout << "\033c";
+#define clear() system("cls");
 
 struct Device
 {
