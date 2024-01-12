@@ -350,6 +350,7 @@ void ReadMe()
  
 int main()
 {
+    system("title KMS Active");
     BOOL runAsAdmin = IsRunAsAdministrator();
     if (!runAsAdmin)
     {
